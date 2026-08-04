@@ -96,8 +96,11 @@ button {
   font-size: 45px;
   line-height: 1.4;
   letter-spacing: -0.04em;
-  padding-left: 30px;
+  padding-left: 85px;
   padding-bottom: 50px;
+}
+.section-head h2.title{
+  padding-left: 95px;
 }
 .section-head2 h2{
   margin: 25px 40px 0;
@@ -107,7 +110,7 @@ button {
   font-size: 45px;
   line-height: 1.4;
   letter-spacing: -0.04em;
-  padding-left: 30px;
+  padding-left: 80px;
   padding-bottom: 50px;
 }
 .section-head p {
@@ -564,7 +567,7 @@ h4{
 }
 .profile-body,
 .about-body {
-  padding: 0 28px;
+  padding: 15px 0px;
 }
 
 .about-body{
