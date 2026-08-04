@@ -988,9 +988,12 @@ h4{
 .thumb-video {
   display: block;
   width: 100%;
-   height: 100%;
-  object-fit: cover; 
+
 }
+#about .thumb-video{
+  height: 100%;
+}
+
 
 .thumb-play-button {
   position: absolute;
