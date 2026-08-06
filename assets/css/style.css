@@ -566,7 +566,10 @@ h4{
 .about{
   overflow: hidden;
 }
-.profile-body,
+.profile-body{
+  padding: 15px 0px
+}
+
 .about-body {
   padding: 0px 15px;
 }
@@ -574,7 +577,7 @@ h4{
 .about-body{
   box-shadow: 10px 10px 5px rgba(40,88,147,50%);
   background-color: #F4F7FF;
-  margin-top: 67px;
+  margin-top: 95px;
 }
 
 .about-body h3 {
