@@ -352,7 +352,7 @@ button {
 }
 
 .btn-primary {
-  background: linear-gradient(135deg, var(--accent), #86ecd0);
+  background: linear-gradient(135deg, var(--accent), #285893);
   color: #0d2a22;
   font-weight: 700;
   box-shadow: 0 14px 30px rgba(50, 199, 161, 0.18);
@@ -711,7 +711,7 @@ h4{
 /* 브랜드별 색상 start */
 /* 이 부분을 지우면 포트폴리오 메인 컬러를 사용하실 수 있습니다. */
 .brand1_color h3 {
-  color: #c4b02a;
+  color: #285893;
 }
 
 .brand1_color .tag a {
