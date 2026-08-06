@@ -26,9 +26,10 @@ html {
   scroll-behavior: auto;
 }
 
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans KR", sans-serif;
+  font-family: "Cormorant Garamond",-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans KR", sans-serif;
   background:
     radial-gradient(circle at top right, rgba(50, 199, 161, 0.09), transparent 24%),
     radial-gradient(circle at 12% 10%, rgba(123, 140, 255, 0.08), transparent 18%),
@@ -567,13 +568,13 @@ h4{
 }
 .profile-body,
 .about-body {
-  padding: 15px 0px;
+  padding: 0px 15px;
 }
 
 .about-body{
   box-shadow: 10px 10px 5px rgba(40,88,147,50%);
   background-color: #F4F7FF;
-  margin-top: 95px;
+  margin-top: 67px;
 }
 
 .about-body h3 {
@@ -615,6 +616,9 @@ h4{
 .timeline-role{
   color: #2A2A2C;
   font-size: 0.96rem;
+}
+.timeline-role span{
+  font-size: 25px;
 }
 
 .skills {
