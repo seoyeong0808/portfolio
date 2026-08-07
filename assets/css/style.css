@@ -152,7 +152,7 @@ button {
 .brand {
   font-weight: 700;
   letter-spacing: -0.03em;
-  font-size: 1rem;
+  font-size: 20px;
   display: inline-flex;
   align-items: center;
   gap: 12px;
@@ -163,8 +163,8 @@ button {
   width: 10px;
   height: 10px;
   border-radius: 999px;
-  background: linear-gradient(135deg, var(--accent), var(--accent-2));
-  box-shadow: 0 0 18px rgba(50, 199, 161, 0.35);
+  background: #C5D7ED;
+  box-shadow: 0 20px 34px rgba(157, 174, 202, 50%);
 }
 
 .nav-links {
@@ -352,14 +352,14 @@ button {
 }
 
 .btn-primary {
-  background: linear-gradient(135deg, var(--accent), #285893);
-  color: #0d2a22;
+  background: #C5D7ED;
+  color: #2A2A2C;
   font-weight: 700;
-  box-shadow: 0 14px 30px rgba(50, 199, 161, 0.18);
+  /*box-shadow: 0 14px 30px rgba(50, 199, 161, 0.18);*/
 }
 
 .btn-primary:hover {
-  box-shadow: 0 20px 34px rgba(50, 199, 161, 0.24);
+  box-shadow: 0 20px 34px rgba(157, 174, 202, 50%);
 }
 
 .btn-secondary {
