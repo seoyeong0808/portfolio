@@ -986,6 +986,12 @@ h4{
 .thumb-overlay span{
   color: #252525;
 }
+.thumb-overlay.white span{
+  color: #fafafa;
+}
+.thumb-overlay.white strong{
+  color: #fafafa;
+}
 
 /* video play */
 .reels-thumb {
