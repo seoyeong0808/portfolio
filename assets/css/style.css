@@ -511,7 +511,7 @@ button {
   bottom: 24px;
   left: 50%;
   transform: translateX(-50%);
-  color: var(--text-muted);
+  color: #252525;
   font-size: 0.84rem;
   display: flex;
   flex-direction: column;
