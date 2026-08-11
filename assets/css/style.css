@@ -171,7 +171,7 @@ button {
   display: flex;
   gap: 20px;
   align-items: center;
-  color: var(--text-muted);
+  color: #C5D7ED;
   font-size: 0.95rem;
 }
 
@@ -1193,7 +1193,7 @@ h4{
   transform: translateY(26px) scale(.96);
 }
 .title_bg{
-  background-image: url(../img/sign.png);
+  background-image: url(../img/index/sign.png);
   background-repeat: no-repeat;
   padding-top: 120px;
 }
