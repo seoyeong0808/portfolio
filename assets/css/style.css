@@ -94,10 +94,10 @@ button {
   font-family: "Cormorant Garamond", serif;
   color: #F4F7FF;
   font-weight: 500;
-  font-size: 45px;
+  font-size: clamp(40px, 5vw, 45px);
   line-height: 1.4;
   letter-spacing: -0.04em;
-  padding-left: 85px;
+  padding-left: clamp(20px, 10vw, 85px);
   padding-bottom: 50px;
 }
 .section-head h2.title{
@@ -108,10 +108,10 @@ button {
   font-family: "Cormorant Garamond", serif;
   color: #F4F7FF;
   font-weight: 500;
-  font-size: 45px;
+  font-size: clamp(40px, 5vw, 45px);
   line-height: 1.4;
   letter-spacing: -0.04em;
-  padding-left: 80px;
+  padding-left: clamp(20px, 10vw, 85px);
   padding-bottom: 50px;
 }
 .section-head p {
@@ -806,7 +806,7 @@ h4{
   /* cursor: grab; */
   user-select: none;
   -webkit-user-select: none;
-  touch-action: pan-y;
+  touch-action: pan-x pan-y;
 }
 
 .brand-track.dragging,
@@ -1045,7 +1045,11 @@ h4{
   opacity: 0;
   transform: translate(-50%, -50%) scale(0.9);
 }
-
+@media (hover: none) {
+  .thumb-play-button {
+    display: none;
+  }
+}
 .thumb-overlay {
   position: absolute;
   left: 0;
