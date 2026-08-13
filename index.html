@@ -299,7 +299,7 @@
               </a>
               </article>
 
-              <article class="poster-thumb thumb-card modal-card" data-modal-type="poster"
+              <article class="poster-thumb thumb-card" data-modal-type="poster"
                 data-modal-label="Poster"
                 data-modal-title="Poster Series B" data-modal-description="브랜드 포스터 시리즈입니다."
                 data-modal-role="Poster Design" data-modal-tools="Photoshop"
@@ -319,7 +319,7 @@
               </a>
               </article>
 
-              <article class="poster-thumb thumb-card modal-card" data-modal-type="poster"
+              <article class="poster-thumb thumb-card" data-modal-type="poster"
                 data-modal-label="Poster"
                 data-modal-title="Poster Series B" data-modal-description="브랜드 포스터 시리즈입니다."
                 data-modal-role="Poster Design" data-modal-tools="Photoshop"
@@ -340,17 +340,22 @@
               </article>
 
               <article class="ad-thumb thumb-card modal-card" data-modal-type="banner" data-modal-label="Banner Project" data-modal-title="Banner Set A"
-                data-modal-description="디지털 배너 광고 세트입니다." data-modal-role="Banner Design"
-                data-modal-tools="Photoshop, Figma" data-modal-summary="퍼포먼스 배너와 SNS용 변형 소재를 함께 설계한 배너 세트입니다."
+                data-modal-description="디지털 배너 광고 세트입니다." data-modal-role="Ticket, ID Design"
+                data-modal-tools="Photoshop, Pro, ChatGPT" data-modal-summary="퍼포먼스 배너와 SNS용 변형 소재를 함께 설계한 배너 세트입니다."
                 data-modal-meta1-label="Platform" data-modal-meta1-value="Meta / Web / App"
                 data-modal-meta2-label="Campaign" data-modal-meta2-value="Seasonal Promotion"
                 data-modal-meta3-label="Size" data-modal-meta3-value="1080x1080 / 1200x628"
                 data-modal-meta4-label="Placement" data-modal-meta4-value="Feed / Display / Landing"
-                data-modal-tags="Banner, Performance, SNS" data-modal-note-title="Editable Note"
+                data-modal-tags="ticket, Performance, SNS" data-modal-note-title="Editable Note"
                 data-modal-note="배너는 플랫폼, 사이즈, CTA 방향 등을 이 박스에서 자유롭게 수정하면 됩니다." data-modal-video="Banner motion preview"
-                data-modal-link="https://example.com" data-modal-media="" data-modal-ratio="1200 / 628">
-                <img src="./assets/img/ticket/ticket_id.jpg" alt="">
-                <div class="thumb-overlay"><strong>CxM Ticket</strong><span>Ticket ID Card</span></div>
+                data-modal-link="https://example.com" data-modal-media="" data-modal-ratio="282 / 392">
+                <video class="thumb-video" autoplay loop muted playsinline preload="metadata">
+                  <source src="./video/ticket.mp4" type="video/mp4" />
+                </video>
+                <div class="thumb-overlay">
+                  <strong>CxM Ticket</strong>
+                  <span>Ticket ID Card</span>
+                </div>
               </article>
 
               <article class="ad-thumb thumb-card modal-card" data-modal-type="banner" data-modal-label="Banner" data-modal-title="Banner Set B"
@@ -542,9 +547,187 @@
               </article> -->
             </div>
           </section>
+          <!--추가 작업물-->
+         <!--밑에 작업물 추가시 이줄은 지우기
+         
+          <section class="right_video card work-row reveal reveal-scale">
+            <div class="work-row-head">
+              <div>
+                <h3>Reels & Videos</h3>
+                <p>릴스, 숏폼, 모션 중심 작업물로 영상에 마우스를 가져가면 영상이 플레이 됩니다.</p>
+              </div>
+              <div class="slider-controls">
+                <button class="slider-btn" type="button" data-slider-prev="video2Track">←</button>
+                <button class="slider-btn" type="button" data-slider-next="video2Track">→</button>
+              </div>
+            </div>
+            <div class="thumb-track slider-track" id="videoTrack">
+              <article class="video-thumb thumb-card modal-card" data-modal-type="reels"
+                data-modal-title="Hype Vibes Vinyle"
+                data-modal-description="앨범의 분위기와 감성을 바이닐에 담아 하나의 시각적 경험으로 표현했습니다."
+                data-modal-role="Motion Design / Reel Editing"
+                data-modal-tools="ChatGPT Capcut"
+                data-modal-meta1-label="Format" data-modal-meta1-value="9:16 Vertical"
+                data-modal-meta2-label="Duration" data-modal-meta2-value="10 sec"
+                data-modal-tags="Reels, Short-form, Motion"
+                data-modal-note-title="Editable Note"
+                data-modal-note="앨범이 가진 분위기와 감성을 바이닐이라는 아날로그 매체에 담아, 음악의 이미지를 시각적으로 표현했습니다."
+                data-modal-link="https://example.com"
+                data-modal-media="./video/hype_vibes.mp4" data-modal-ratio="9 / 16">
+                <video class="thumb-video" muted loop playsinline preload="metadata">
+                  <source src="./video/hype_vibes.mp4" type="video/mp4" />
+                </video>
+                <div class="thumb-play-button" aria-hidden="true">
+                  <span class="thumb-play-icon"></span>
+                </div>
+                <div class="thumb-overlay white">
+                  <strong>Hype Vibes Vinyle</strong>
+                  <span>Short-form Motion</span>
+                </div>
+              </article>
+
+              <article class="video-thumb thumb-card modal-card" data-modal-type="reels"
+                data-modal-title="Miniature Music Room"
+                data-modal-description="나의 취향을 담은 작은 음악 공간을 미니어처로 표현했습니다."
+                data-modal-role="Campaign Motion"
+                data-modal-tools="ChatGPT Capcut"
+                data-modal-meta1-label="Format" data-modal-meta1-value="9:16 Vertical"
+                data-modal-meta2-label="Duration" data-modal-meta2-value="12 sec"
+                data-modal-tags="Miniature, Music, room"
+                data-modal-note-title="Editable Note"
+                data-modal-note="음악을 하나의 공간으로 표현하고, 작은 미니어처 룸을 통해 개인의 취향과 감성을 시각화했습니다."
+                data-modal-link="https://example.com"
+                data-modal-media="./video/miniature_music_room.mp4">
+                <video class="thumb-video" muted loop playsinline preload="metadata">
+                  <source src="./video/miniature_music_room.mp4" type="video/mp4" />
+                </video>
+                <div class="thumb-play-button" aria-hidden="true">
+                  <span class="thumb-play-icon"></span>
+                </div>
+                <div class="thumb-overlay white">
+                  <strong>Miniature Music Room</strong>
+                  <span>miniature</span>
+                </div>
+              </article>
+
+              <article class="video-thumb thumb-card modal-card" data-modal-type="reels"
+                data-modal-title="Miniature Virtual World"
+                data-modal-description="만약 자판기가 상품 대신 세계를 판매한다면 어떨까? 캡슐 속에 담긴 가상세계를 통해 일상의 사물을 새로운 상상으로 재해석한 숏폼 콘텐츠"
+                data-modal-role="Concept Film"
+                data-modal-tools="ChatGPT Capcut"
+                data-modal-meta1-label="Concept Film" data-modal-meta1-value="9:16 Vertical"
+                data-modal-meta2-label="Duration" data-modal-meta2-value="10 sec"
+                data-modal-tags="virtual, world, fantasy"
+                data-modal-note-title="Editable Note"
+                data-modal-note="익숙한 자판기를 '세계를 선택하는 장치'로 재해석하여, 미니어처 가상도시가 담긴 캡슐이라는 설정을 시각화했다."
+                data-modal-link="https://example.com"
+                data-modal-media="./video/Miniature_Virtual _World.mp4">
+                <video class="thumb-video" muted loop playsinline preload="metadata">
+                  <source src="./video/Miniature_Virtual _World.mp4" type="video/mp4" />
+                </video>
+                <div class="thumb-play-button" aria-hidden="true">
+                  <span class="thumb-play-icon"></span>
+                </div>
+                <div class="thumb-overlay white">
+                  <strong>Miniature Virtual World</strong>
+                  <span>Virtual</span>
+                </div>
+              </article>
+
+              <article class="video-thumb thumb-card modal-card" data-modal-type="reels"
+                data-modal-title="Reel Project D"
+                data-modal-description="광고성 메시지를 중심으로 한 모션 릴스입니다."
+                data-modal-role="Ad Motion"
+                data-modal-tools="Premiere Pro"
+                data-modal-meta1-label="Format" data-modal-meta1-value="9:16 Vertical"
+                data-modal-meta2-label="Duration" data-modal-meta2-value="20 sec"
+                data-modal-tags="Ad Motion, Short-form"
+                data-modal-note-title="Editable Note"
+                data-modal-note="광고 릴스 D 설명을 수정하세요."
+                data-modal-link="https://example.com"
+                data-modal-media="assets/video/Reels_sample_01.mp4">
+                <video class="thumb-video" muted loop playsinline preload="metadata">
+                  <source src="assets/video/Reels_sample_01.mp4" type="video/mp4" />
+                </video>
+                <div class="thumb-play-button" aria-hidden="true">
+                  <span class="thumb-play-icon"></span>
+                </div>
+                <div class="thumb-overlay">
+                  <strong>Reel Project D</strong>
+                  <span>Ad Motion</span>
+                </div>
+              </article>
+
+              <article class="video-thumb thumb-card modal-card" data-modal-type="reels"
+                data-modal-title="Reel Project E"
+                data-modal-description="브랜드 인트로 성격의 영상 작업입니다."
+                data-modal-role="Intro Motion"
+                data-modal-tools="Premiere Pro"
+                data-modal-meta1-label="Format" data-modal-meta1-value="9:16 Vertical"
+                data-modal-meta2-label="Duration" data-modal-meta2-value="08 sec"
+                data-modal-tags="Intro, Reels"
+                data-modal-note-title="Editable Note"
+                data-modal-note="인트로 릴스 E에 대한 설명입니다."
+                data-modal-link="https://example.com"
+                data-modal-media="assets/video/Reels_sample_01.mp4">
+                <video class="thumb-video" muted loop playsinline preload="metadata">
+                  <source src="assets/video/Reels_sample_01.mp4" type="video/mp4" />
+                </video>
+                <div class="thumb-play-button" aria-hidden="true">
+                  <span class="thumb-play-icon"></span>
+                </div>
+                <div class="thumb-overlay">
+                  <strong>Reel Project E</strong>
+                  <span>Brand Intro</span>
+                </div>
+              </article>
+
+              <article class="video-thumb thumb-card modal-card" data-modal-type="reels"
+                data-modal-title="Reel Project F"
+                data-modal-description="브랜드 인트로 영상 확장 버전입니다."
+                data-modal-role="Motion Design"
+                data-modal-tools="Premiere Pro"
+                data-modal-meta1-label="Format" data-modal-meta1-value="9:16 Vertical"
+                data-modal-meta2-label="Duration" data-modal-meta2-value="18 sec"
+                data-modal-tags="Brand Intro, Reel"
+                data-modal-note-title="Editable Note"
+                data-modal-note="릴스 F 전용 설명 영역입니다."
+                data-modal-link="https://example.com"
+                data-modal-media="assets/video/Reels_sample_01.mp4">
+                <video class="thumb-video" muted loop playsinline preload="metadata">
+                  <source src="assets/video/Reels_sample_01.mp4" type="video/mp4" />
+                </video>
+                <div class="thumb-play-button" aria-hidden="true">
+                  <span class="thumb-play-icon"></span>
+                </div>
+                <div class="thumb-overlay">
+                  <strong>Reel Project F</strong>
+                  <span>Brand Intro</span>
+                </div>
+              </article>
+             <article class="video-thumb thumb-card modal-card" data-modal-title="Reel Project F"
+                data-modal-description="브랜드 인트로 영상입니다." data-modal-role="Motion Design / Short-form"
+                data-modal-tools="Premiere Pro, AI Video" data-modal-video="Reel preview area"
+                data-modal-link="https://example.com">
+                <video class="thumb-video" muted loop playsinline preload="metadata">
+                  <source src="assets/video/Reels_sample_01.mp4" type="video/mp4" />
+                </video>
+                <div class="thumb-play-button" aria-hidden="true">
+                  <span class="thumb-play-icon"></span>
+                </div>
+                <div class="thumb-overlay">
+                  <strong>Reel Project F</strong>
+                  <span>Brand Intro</span>
+                </div>
+              </article>
+            </div>
+          </section>
+
+          작업 추가할떄 이줄도 지우고 사용하세요!-->
         </div>
       </div>
     </section>
+    
   </main>
 
   <footer class="site-footer" id="contact">

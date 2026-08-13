@@ -870,6 +870,12 @@ h4{
 .reels-thumb {
   aspect-ratio: 9 / 16;
 }
+.video-thumb {
+  aspect-ratio: 16 / 9;
+}
+.right_video .thumb-track>.thumb-card{
+  width: min(60%, 24vw);
+}
 
 .cardnews-thumb {
   aspect-ratio: 4 / 5;
