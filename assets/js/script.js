@@ -49,18 +49,31 @@
     }
 
     function createMediaMarkup(src, alt) {
-      if (!src) return alt || 'Preview';
+  if (!src) return alt || 'Preview';
 
-      if (isVideoFile(src)) {
-        return `
-          <video autoplay muted loop playsinline preload="metadata" aria-label="${alt}">
-            <source src="${src}">
-          </video>
-        `;
-      }
+  // YouTube iframe
+  if (src.includes('youtube.com/embed/')) {
+    return `
+      <iframe
+        src="${src}"
+        title="${alt}"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+      </iframe>
+    `;
+  }
 
-      return `<img src="${src}" alt="${alt}">`;
-    }
+  if (isVideoFile(src)) {
+    return `
+      <video autoplay muted loop playsinline preload="metadata" aria-label="${alt}">
+        <source src="${src}">
+      </video>
+    `;
+  }
+
+  return `<img src="${src}" alt="${alt}">`;
+}
 
     // poster / banner는 data-modal-media 속성으로 썸네일과 다른 모달 전용 이미지를 지정할 수 있습니다.
     function getCardData(source) {
